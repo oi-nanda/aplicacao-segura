@@ -1,0 +1,99 @@
+.section_profile {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.homeScreen {
+  background-color: #deddccc5;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.logo_profile {
+  font-family: "Manly";
+  font-size: 60px;
+  margin-top: -10px;
+  color: #1d1d1d;
+  margin-top: 20px;
+}
+
+.header_profile {
+  width: 1480px;
+  height: 300px;
+
+  display: flex;
+  padding: 50px;
+  padding-left: 20px;
+  justify-content: space-evenly;
+  font-weight: bold;
+  background-color: #deddccc5;
+}
+
+.header_info {
+  margin-left: 20px;
+  margin-top: 8px;
+}
+
+.header_button {
+  margin-top: 20px;
+  height: 30px;
+  border-radius: 20px;
+  width: 100px;
+  background-color: #1d1d1d83;
+  color: #deddccc5;
+}
+
+.header_button_logout {
+  margin: 50px;
+  margin-top: 20px;
+  height: 30px;
+  border-radius: 20px;
+  width: 100px;
+  background-color: #1d1d1d83;
+  color: #deddccc5;
+}
+.perfil_image {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.post_image {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.post_content {
+  width: 500px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.gallary_title {
+  margin: 20px;
+  font-family: "Manly";
+  font-size: 80px;
+  margin-top: -10px;
+  color: #deddcce6;
+  margin-top: 20px;
+}
+
+.gallary_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.post_content {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  color: #deddcce6;
+  padding: 20px;
+}
